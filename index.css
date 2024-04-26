@@ -4,3 +4,15 @@
     padding:60px;
     font-size:30px;
 }
+.innerStyle img{
+    width:200px;
+}
+.innerStyle{
+    margin:10px;
+    padding:10px;
+    background-color: rgba(114, 189, 189, 0.58);
+}
+#container1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
