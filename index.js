@@ -19,3 +19,15 @@ function show(data){
         oldcontent.appendchild(newDiv);
     }
 }
+function show(data){
+    oldcontent=document.getElementById("container1");
+    oldcontent.textcontent="";
+
+    for(var i=1;i<data.length[5];i++){
+        console.log(data);
+        var newDiv=document.createElement("div");
+        newDiv.innerHTML=`Meal Title: <b>${data[i-1].strMeal}</b> <br>`;
+        newDiv.classList.add("innerStyle");
+        oldcontent.appendchild(newDiv);
+    }
+}
